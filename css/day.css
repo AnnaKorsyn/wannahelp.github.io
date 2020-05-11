@@ -1,0 +1,50 @@
+body {
+	background-image: url('../images/parrot.jpeg'); 
+	background-size: cover;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 0;
+}
+
+.logo {
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	padding-top: 10px;
+}
+
+.main {
+	background-color: rgb(255, 255, 255, .8);
+	background-size: auto;
+	margin: 0px 60px;
+}
+
+
+.hone {
+	text-align: center;
+}
+
+.oct {
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.text {
+	text-align: justify;
+	text-indent: 10px;
+	padding: 20px 60px;
+}
+
+.page {
+	text-align: center;
+	border: 30px;
+
+}
+
+.t {
+	font-style: italic;
+	font-size: 18px;
+}
+

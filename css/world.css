@@ -1,0 +1,86 @@
+body {
+	margin: 0;	
+	overflow-x: hidden;
+	max-height: 100vh;
+}
+
+
+.logo {
+	top: 0;
+	position: relative;
+	text-align: center;
+}
+
+body {
+	background-image: url("../images/par.jpeg"); 
+	background-size: cover;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 0;
+	font-size: 18px;
+}
+
+.logo {
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	margin-top: 10px;
+}
+
+.main {
+	background-color: rgb(255, 255, 255);
+	color: #000000;
+	position: relative;
+	z-index: 1;
+	margin: 0px 150px;
+	margin-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+	color:  rgb(0, 100, 0);
+	font-size: 25px;
+
+}
+
+a:hover {
+	background-color: #FF6347	;
+
+}
+
+.z{
+	text-align: center;
+}
+
+.hone {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.oct {
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.text {
+	text-align: justify;
+	text-indent: 10px;
+	padding: 20px 60px;
+}
+
+.page {
+	text-align: center;
+	border: 30px;
+
+}
+
+.t {
+	font-style: italic;
+	font-size: 18px;
+}
+
+.video {
+	text-align: center;
+}

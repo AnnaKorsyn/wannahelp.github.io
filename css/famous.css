@@ -1,0 +1,84 @@
+body {
+	margin: 0;	
+	overflow-x: hidden;		;
+	background-image: url("../images/print.jpg");
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 0;
+	font-size: 18px;
+}
+
+
+.logo {
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	padding-top: 20px;
+}
+
+
+
+.main {
+	background-color: #FFFFF0;
+	position: relative;
+	z-index: 1;
+	margin: 0 200px;
+}
+
+.text {
+	position: relative;
+	text-align: center;
+	text-indent: 10px;
+	padding: 10px 60px;
+	font-size: 20px;
+	background-color: rgb(210, 105, 30, .8);
+}
+
+
+
+.img {
+	text-align: center;
+	padding-top: 30px;
+}
+.vol {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	width: 100%;
+	position: relative;
+	background-color:#DEB887;
+}
+
+.video {
+	text-align: center;
+
+}
+
+.z{
+	text-align: center;
+}
+
+.hone {
+	text-align: center;
+	background-color: #000000;
+	color: #fff;
+}
+
+
+
+.page {
+	text-align: center;
+	border: 30px;
+
+}
+
+.t {
+	font-style: italic;
+	font-size: 18px;
+}
+
+.video {
+	text-align: center;
+}
+

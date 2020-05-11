@@ -1,0 +1,123 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: "Gabriola";
+	overflow-x:hidden;  
+	z-index: 0;
+	background-image: url("../images/lion.jpeg");
+}
+
+h1 {
+	font-size: 50px;
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #000000;
+	padding-top: 30px;
+	text-align: center;
+}
+h3 {
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	position: relative;
+    color: #3CB371;
+} 
+
+h4 {
+	font-size: 24px;
+	color: #8B0000;
+}
+
+.text {
+	padding: 20px;
+	font-size: 19px;
+	font-family: "Times New Roman";
+	text-indent: 5px;
+	text-align: center;
+	background-color: rgb(244, 164, 96, .8);
+	margin: 25px 25px;
+}
+
+main {
+	background-color: rgb(255, 248, 220, .8);
+	margin: 10px 100px;
+}
+
+.logo {
+	position: relative;
+	text-align: center;
+	z-index: 10;
+	top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color:  #DC143C	;
+	font-size: 25px;
+
+}
+
+a:hover {
+	background-color: #FFC0CB		;
+
+}
+
+/* 		 SECTION feedback			*/
+.feedback {
+	position: relative;
+	z-index: 20;
+	padding-top: 55px;
+	padding-bottom: 50px;
+	background-size: auto;
+	background-position: center;
+}
+.feedback-content {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	width: 60%;
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+}
+
+.feedback-content .fb-author {
+	width: 70%;
+    height: 250px;
+    position: relative;
+    left: -40px;
+    top: -10px;
+}
+.feedback-content .author-img {
+	position: relative;
+    top: 32px;
+    left: 30px;	
+}
+.feedback-content .fb-author p {
+	position: relative;
+	bottom: -40px;
+	left: 30px;
+}    
+.feedback-content .content {
+	position: relative;	
+	padding-top: 20px;
+	padding-left: 20px;
+	border-left: 1px solid #F48734;
+}
+
+
+.feedback-content .content p {
+	font-family: "Times New Roman";
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+/* 		 end feedback			*/
