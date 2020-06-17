@@ -116,6 +116,7 @@ a:hover {
 
 .feedback-content .content p {
 	font-family: "Times New Roman";
+	text-align: justify;
 	font-weight: 400;
 	font-size: 18px;
 	margin-bottom: 0;
